@@ -45,9 +45,17 @@ xlocs = [i for i in range(len(problem_sizes))]
 
 plt.xticks(xlocs, problem_sizes)
 
-plt.plot(code1_time, "r-o")
-plt.plot(code2_time, "b-x")
-plt.plot(code3_time, "g-^")
+code1_time = df["direct_MFLOPs"]
+code2_time = df["vector_time_ms"]
+code3_time = df["indirect_time_ms"]
+
+plt.plot(code1_time, "r-o", label="sum_direct")
+plt.plot(code2_time, "b-x", label="sum_vector")
+plt.plot(code3_time, "g-^", label="sum_indirect")
+
+# plt.plot(code1_time, "r-o")
+# plt.plot(code2_time, "b-x")
+# plt.plot(code3_time, "g-^")
 
 #plt.xscale("log")
 #plt.yscale("log")
@@ -56,7 +64,8 @@ plt.xlabel("Problem Size (N)")
 plt.ylabel("MFLOP/s")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
-plt.legend(varNames, loc="best")
+# plt.legend(varNames, loc="best")
+plt.legend(loc="best")
 
 plt.grid(axis='both')
 
