@@ -1,5 +1,5 @@
-CXX = g++-15
-CXXFLAGS = -std=c++17 -O2
+CXX = g++
+CXXFLAGS = -std=c++17 -O3
 
 all: bench_direct bench_vector bench_indirect
 
