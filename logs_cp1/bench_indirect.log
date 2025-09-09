@@ -1,0 +1,160 @@
+========== Run 1 for bench_indirect ==========
+Working on problem size N=8388608 
+ inside sum_indirect problem_setup, N=8388608 
+ inside sum_indirect perform_sum, N=8388608 
+Elapsed time: 57 ms
+ Sum result = 35320418533376.000000 
+Working on problem size N=16777216 
+ inside sum_indirect problem_setup, N=16777216 
+ inside sum_indirect perform_sum, N=16777216 
+Elapsed time: 150 ms
+ Sum result = 141069526237184.000000 
+Working on problem size N=33554432 
+ inside sum_indirect problem_setup, N=33554432 
+ inside sum_indirect perform_sum, N=33554432 
+Elapsed time: 205 ms
+ Sum result = 556663027269632.000000 
+Working on problem size N=67108864 
+ inside sum_indirect problem_setup, N=67108864 
+ inside sum_indirect perform_sum, N=67108864 
+Elapsed time: 1095 ms
+ Sum result = 2237483211292672.000000 
+Working on problem size N=134217728 
+ inside sum_indirect problem_setup, N=134217728 
+ inside sum_indirect perform_sum, N=134217728 
+Elapsed time: 1608 ms
+ Sum result = 9179251349651456.000000 
+Working on problem size N=268435456 
+ inside sum_indirect problem_setup, N=268435456 
+ inside sum_indirect perform_sum, N=268435456 
+Elapsed time: 2095 ms
+ Sum result = 36266119731871744.000000 
+
+========== Run 2 for bench_indirect ==========
+Working on problem size N=8388608 
+ inside sum_indirect problem_setup, N=8388608 
+ inside sum_indirect perform_sum, N=8388608 
+Elapsed time: 66 ms
+ Sum result = 35384138399744.000000 
+Working on problem size N=16777216 
+ inside sum_indirect problem_setup, N=16777216 
+ inside sum_indirect perform_sum, N=16777216 
+Elapsed time: 102 ms
+ Sum result = 137040888856576.000000 
+Working on problem size N=33554432 
+ inside sum_indirect problem_setup, N=33554432 
+ inside sum_indirect perform_sum, N=33554432 
+Elapsed time: 238 ms
+ Sum result = 563420587884544.000000 
+Working on problem size N=67108864 
+ inside sum_indirect problem_setup, N=67108864 
+ inside sum_indirect perform_sum, N=67108864 
+Elapsed time: 487 ms
+ Sum result = 2261890570911744.000000 
+Working on problem size N=134217728 
+ inside sum_indirect problem_setup, N=134217728 
+ inside sum_indirect perform_sum, N=134217728 
+Elapsed time: 1036 ms
+ Sum result = 9106992819863552.000000 
+Working on problem size N=268435456 
+ inside sum_indirect problem_setup, N=268435456 
+ inside sum_indirect perform_sum, N=268435456 
+Elapsed time: 4203 ms
+ Sum result = 36221864388853760.000000 
+
+========== Run 3 for bench_indirect ==========
+Working on problem size N=8388608 
+ inside sum_indirect problem_setup, N=8388608 
+ inside sum_indirect perform_sum, N=8388608 
+Elapsed time: 50 ms
+ Sum result = 35140325605376.000000 
+Working on problem size N=16777216 
+ inside sum_indirect problem_setup, N=16777216 
+ inside sum_indirect perform_sum, N=16777216 
+Elapsed time: 99 ms
+ Sum result = 140560664887296.000000 
+Working on problem size N=33554432 
+ inside sum_indirect problem_setup, N=33554432 
+ inside sum_indirect perform_sum, N=33554432 
+Elapsed time: 182 ms
+ Sum result = 585888568442880.000000 
+Working on problem size N=67108864 
+ inside sum_indirect problem_setup, N=67108864 
+ inside sum_indirect perform_sum, N=67108864 
+Elapsed time: 1032 ms
+ Sum result = 2266542288928768.000000 
+Working on problem size N=134217728 
+ inside sum_indirect problem_setup, N=134217728 
+ inside sum_indirect perform_sum, N=134217728 
+Elapsed time: 1038 ms
+ Sum result = 8931451600896000.000000 
+Working on problem size N=268435456 
+ inside sum_indirect problem_setup, N=268435456 
+ inside sum_indirect perform_sum, N=268435456 
+Elapsed time: 3136 ms
+ Sum result = 35838673849155584.000000 
+
+========== Run 4 for bench_indirect ==========
+Working on problem size N=8388608 
+ inside sum_indirect problem_setup, N=8388608 
+ inside sum_indirect perform_sum, N=8388608 
+Elapsed time: 31 ms
+ Sum result = 35187580731392.000000 
+Working on problem size N=16777216 
+ inside sum_indirect problem_setup, N=16777216 
+ inside sum_indirect perform_sum, N=16777216 
+Elapsed time: 186 ms
+ Sum result = 141859884105728.000000 
+Working on problem size N=33554432 
+ inside sum_indirect problem_setup, N=33554432 
+ inside sum_indirect perform_sum, N=33554432 
+Elapsed time: 209 ms
+ Sum result = 557357503348736.000000 
+Working on problem size N=67108864 
+ inside sum_indirect problem_setup, N=67108864 
+ inside sum_indirect perform_sum, N=67108864 
+Elapsed time: 624 ms
+ Sum result = 2257911283712000.000000 
+Working on problem size N=134217728 
+ inside sum_indirect problem_setup, N=134217728 
+ inside sum_indirect perform_sum, N=134217728 
+Elapsed time: 1045 ms
+ Sum result = 9045760544866304.000000 
+Working on problem size N=268435456 
+ inside sum_indirect problem_setup, N=268435456 
+ inside sum_indirect perform_sum, N=268435456 
+Elapsed time: 2156 ms
+ Sum result = 35369923265953792.000000 
+
+========== Run 5 for bench_indirect ==========
+Working on problem size N=8388608 
+ inside sum_indirect problem_setup, N=8388608 
+ inside sum_indirect perform_sum, N=8388608 
+Elapsed time: 44 ms
+ Sum result = 37084026896384.000000 
+Working on problem size N=16777216 
+ inside sum_indirect problem_setup, N=16777216 
+ inside sum_indirect perform_sum, N=16777216 
+Elapsed time: 102 ms
+ Sum result = 137409182302208.000000 
+Working on problem size N=33554432 
+ inside sum_indirect problem_setup, N=33554432 
+ inside sum_indirect perform_sum, N=33554432 
+Elapsed time: 516 ms
+ Sum result = 567507182157824.000000 
+Working on problem size N=67108864 
+ inside sum_indirect problem_setup, N=67108864 
+ inside sum_indirect perform_sum, N=67108864 
+Elapsed time: 481 ms
+ Sum result = 2225789625958400.000000 
+Working on problem size N=134217728 
+ inside sum_indirect problem_setup, N=134217728 
+ inside sum_indirect perform_sum, N=134217728 
+Elapsed time: 968 ms
+ Sum result = 9138429832986624.000000 
+Working on problem size N=268435456 
+ inside sum_indirect problem_setup, N=268435456 
+ inside sum_indirect perform_sum, N=268435456 
+Elapsed time: 1531 ms
+ Sum result = 35837404686319616.000000 
+

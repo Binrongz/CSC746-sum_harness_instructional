@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 
 plot_fname = "myplot.png"
 
-fname = "sample_data_3vars.csv"
+fname = "mflops_all.csv"    # Set the file name
 df = pd.read_csv(fname, comment="#")
 print(df)
 
@@ -52,8 +52,8 @@ plt.plot(code3_time, "g-^")
 #plt.xscale("log")
 #plt.yscale("log")
 
-plt.xlabel("Problem Sizes")
-plt.ylabel("runtime")
+plt.xlabel("Problem Size (N)")
+plt.ylabel("MFLOP/s")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
